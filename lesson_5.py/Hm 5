@@ -1,0 +1,86 @@
+"""
+
+
+
+
+
+
+
+"""
+# INDEX
+
+# Метод возвращает позицию при первом вхождении указанного значения.index()
+coins = [22, 35, 680, 902, 920, 300]
+
+x = coins.index(300)
+
+print(x)
+
+
+# POP
+
+# Метод удаляет элемент в указанной позиции.pop()
+
+brand = ['lacoste', 'reebok', 'boss']
+
+x = .pop(1)
+
+print(x)
+
+# EXTEND
+
+# Метод добавляет указанные элементы списка (или любые итерации) в конец текущего списка.extend()
+
+brand = ['lacoste', 'reebok', 'boss']
+
+points = (4, 5, 6, 3)
+
+brand.extend(points)
+
+print(brand)
+
+
+# INSERT
+
+# Метод вставляет указанное значение в указанную позицию.insert()
+
+brand = ['lacoste', 'reebok', 'boss']
+
+brand.insert(1, "nike")
+
+print(brand)
+
+
+# COPY
+
+# Метод возвращает копию указанного списка.copy()
+
+programs = ["JS", "LUA", "PYTON"]
+
+x = programs.copy()
+
+print(x)
+
+
+# COUNT
+
+# Метод возвращает количество элементов с заданным значением.count()
+
+brand = [4, 1, 9, 2, 8, 7, 3, 9, 1]
+
+x = brand.count(9)
+
+print(x)
+
+
+# APPEND
+
+# Метод добавляет элемент в конец списка.append()
+
+a = [lacoste", "reebok", "boss"]
+
+b = ["Balenciaga", "Prada", "Moncler"]
+
+a.append(b)
+
+print(a)
