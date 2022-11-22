@@ -1,7 +1,7 @@
 matrix =[]
 a,b, = 3,4
-a =int(iput('age : '))
-if a > 18
+a =int(input('age : '))
+if a > 18:
     print('good')
 else :
     print('bad') 
