@@ -6,15 +6,15 @@
 # print(isinstance(12, (str,int )))
 
 # print(isinstance(12,(str,int))) # перемменая типы int
-# for val in [1, 2, 3, 4, 5, [6, 7, 8, 5, 6], (4, 5, 6)]: 
-#     print(val) 
-#     if isinstance(val, (list, set, tuple)): 
-#         for i in val: 
-#             print(i)
-#     else:
-#         print(val)
+for val in [1, 2, 3, 4, 5, [6, 7, 8, 5, 6], (4, 5, 6)]: 
+    print(val) 
+    if isinstance(val, (list, set, tuple)): 
+        for i in val: 
+            print(i)
+    else:
+        print(val)
 
-# a = [1,2,"hello",4,5,6,7]
+a = [1,2,"hello",4,5,6,7]
 
 # b = []
 # print(b)
