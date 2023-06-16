@@ -91,3 +91,16 @@ for i in range(len(word_count)-1):
 print("min_word=",f"'{min_word}'",'max_word_count=',max_word_count)
 
 
+# Task 3
+import re
+words = {}
+for word in re.split(r'[\n. ?;:,"]', page):
+    if not word:
+        continue
+
+    if word in words:
+        words[word] += 1
+    else:
+        words[word] = 1
+
+print(max(words.items(), key=lambda item: item[1]))
