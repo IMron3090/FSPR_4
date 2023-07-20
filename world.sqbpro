@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><sqlb_project><db path="C:/Users/Al-Khorazmiy/Downloads/Telegram Desktop/world.db" readonly="0" foreign_keys="1" case_sensitive_like="0" temp_store="0" wal_autocheckpoint="1000" synchronous="2"/><attached/><window><main_tabs open="structure browser pragmas query" current="3"/></window><tab_structure><column_width id="0" width="300"/><column_width id="1" width="0"/><column_width id="2" width="125"/><column_width id="3" width="4031"/><column_width id="4" width="0"/><expanded_item id="0" parent="1"/><expanded_item id="1" parent="1"/><expanded_item id="2" parent="1"/><expanded_item id="3" parent="1"/></tab_structure><tab_browse><current_table name="4,4:mainCity"/><default_encoding codec=""/><browse_table_settings/></tab_browse><tab_sql><sql name="SQL 1">
+SELECT DISTINCT name 
+FROM country;
+
+
+SELECT Name, Continent 
+FROM Country 
+WHERE Continent = 'Asia';
+
+
+SELECT Name, Continent, IndepYear 
+FROM Country 
+WHERE IndepYear &gt; 1990 
+ORDER BY IndepYear DESC;
+
+
+SELECT Name, Population, IndepYear 
+FROM Country 
+WHERE IndepYear IS NOT NULL AND Population BETWEEN 15000 AND 24318000 
+ORDER BY Population ASC
+LIMIT 10;
+
+
+SELECT Name, HeadOfState, 
+ CASE WHEN GovernmentForm = 'Republic' THEN 'Республика' 
+   WHEN GovernmentForm = 'Monarchy' THEN 'Монархния' 
+   WHEN GovernmentForm = 'Federal Republic' THEN 'Федерация' 
+   ELSE 'Другие виды правления' END AS 'Форма управления' 
+FROM Country 
+ORDER BY Name ASC;</sql><current_tab id="0"/></tab_sql></sqlb_project>

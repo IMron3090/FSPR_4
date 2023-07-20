@@ -38,7 +38,7 @@ email_addresses = ['eltnpubgmobile@gmail.com',
 email_text = """
 Hello Imran,
 
-How old are u
+How old are you
 
 Regards,
 Sender
