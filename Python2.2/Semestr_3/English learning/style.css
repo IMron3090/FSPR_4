@@ -3,12 +3,14 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+  text-align: center;
 }
 
 /* Header Styles */
 header {
   background-color:#52958B;
   padding: 20px;
+  text-align: center;
 }
 
 /* Navigation Styles */
@@ -18,10 +20,12 @@ nav ul {
   padding: 0;
   background-color:#07575B;
   overflow: hidden;
+  text-align: center;
 }
 
 nav ul li {
   float: left;
+  text-align: center;
 }
 
 nav ul li a {
@@ -30,16 +34,19 @@ nav ul li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  text-align: center;
 }
 
 nav ul li a:hover {
   background-color: #C4DFE6;
+  text-align: center;
 }
 
 /* Section Styles */
 section {
   padding: 40px;
   background-color: aquamarine;
+  text-align: center;
 }
 
 /* Footer Styles */
